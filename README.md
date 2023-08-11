@@ -30,15 +30,15 @@ Once authenticated, you'll be able to see your top tracks, top artists, and rece
 Explore the visualizations and statistics provided by the app.
 
 ## Technologies Used
-1.**React**: Front-end JavaScript library for building user interfaces.
-2.**Spotify API**: Allows access to Spotify data, including user-related information.
-3.**React Bootstrap**: CSS framework for responsive and user-friendly UI components.
-4.**Express.js**: A back-end framework to handle server-side operations and API requests.
+1. **React**: Front-end JavaScript library for building user interfaces.
+2. **Spotify API**: Allows access to Spotify data, including user-related information.
+3. **React Bootstrap**: CSS framework for responsive and user-friendly UI components.
+4. **Express.js**: A back-end framework to handle server-side operations and API requests.
 
 ## Further Scope
-1.**Add to Playlist**: Implement the option to add recommended songs directly to a playlist.
-2.**Sort and Filter**: Allow users to sort and filter their playlists based on specific audio features.
-3.**Top Artist Stats**: Provide insights into the user's top artists and their characteristics.
+1. **Add to Playlist**: Implement the option to add recommended songs directly to a playlist.
+2. **Sort and Filter**: Allow users to sort and filter their playlists based on specific audio features.
+3. **Top Artist Stats**: Provide insights into the user's top artists and their characteristics.
 
 ## License
 This project is licensed under the MIT License.
