@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.body {
+  background-color: #0b0c10;
+}
+
+.container1 {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  height: 80px;
+  background-color: #000000;
+  position: relative;
+}
+
+.menu-icon {
+  display: block;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-elements ul a.active {
+  color: #2ec4b6;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-elements ul a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #574c4c;
+}
+@media (min-width: 768px) {
+.menu-icon.mobile {
+  display: none; 
+}
+}
+
+
+
+@media (max-width: 768px) {
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-elements {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #000000;
+    width: 0;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .nav-elements.active {
+    width: 270px;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+  .nav-elements.active {
+    width: 100%; /* Update this width to make the menu occupy the full width */
+    display: block;
+    position: absolute;
+    top: 80px; /* Adjust this value if needed */
+    left: 0;
+    background-color: #000000;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0); /* Initialize the menu to be visible */
+    z-index: 1000; /* Make sure the menu is on top of other content */
+  }
+}
+
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.content-container {
+  min-height: calc(100vh - 69.6px);
+}
+
+.move-up {
+  margin-top: -80px;
+}
+
+@media screen and (max-width: 600px) {
+  .move-up {
+    margin-top: 15px;
+  }
+}
+
+.container-main {
+  background-color: #0b0c10;
+}
+
+.background-colour-div {
+  background-color: #ffffff;
+}
