@@ -1,7 +1,7 @@
 # Spotify Stats App
 
 The Spotify Stats App is a web application built using React that allows users to retrieve and visualize simple statistics for their Spotify account using the Spotify API.
-
+The server side code is present in https://github.com/Mythanos99/Stats-For-Spotify-Server
 ## Features
 
 - **Top Tracks and Artists Stats**: Users can easily obtain statistics regarding their top artists and tracks from their Spotify account.
